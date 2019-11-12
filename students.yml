@@ -4,5 +4,10 @@
   tasks:
   - name: des i am install git
     apt:
-      name: tree
-      state:  present
+     name: tree
+     state:  present
+  - name: i am install webserver
+    apt:
+     name: apache2
+     state: present
+     
