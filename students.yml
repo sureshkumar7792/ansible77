@@ -4,14 +4,10 @@
   tasks:
   - name: des i am install git
     apt:
-     name: tree
-     state:  present
+     name: git
+     state: present
   - name: install apache2
     apt:
      name: apache2
-<<<<<<< HEAD
      state: present
-      close: closed
-=======
-     state: present
->>>>>>> 9f424daad1a73343b01d798ca0a9fe462b562db6
+    
