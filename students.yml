@@ -5,7 +5,7 @@
   - name: des i am install git
     apt:
      name: tree
-     state:  present
+     state: present
   - name: install apache2
     apt:
      name: apache2
