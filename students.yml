@@ -2,25 +2,17 @@
 - hosts: all
   become: yes
   tasks:
-  - name: des i am install git
+  - name: install tree
     apt:
-<<<<<<< HEAD
      name: tree
-=======
-     name: git
->>>>>>> 7d7be73b04a155b539368690140029dd9bee0ac6
      state: present
   - name: install apache2
     apt:
      name: apache2
      state: present
-<<<<<<< HEAD
-
   - name: install wget
     apt: 
      name: wget
      state: present  
      
-=======
     
->>>>>>> 7d7be73b04a155b539368690140029dd9bee0ac6
