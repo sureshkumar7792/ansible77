@@ -10,7 +10,7 @@
    - name: server start apache2
      service: 
       name: apache2
-      state:started
+      state: started
      when: ansible_os_family=="Debian" 
    - name: install on Redhat8
      yum:
