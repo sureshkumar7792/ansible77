@@ -9,3 +9,7 @@
 [dbserver]
 172.66.91.55
 172.34.23.62
+
+[webserverer:vars]
+ubuntu=apache2
+redhat=httpd
