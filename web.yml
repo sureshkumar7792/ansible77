@@ -5,7 +5,7 @@
    tasks:
    - name: install ubuntu16
      apt:
-      name: apache2
+      name: "{{ubuntu}}"
       state: present
      when: ansible_os_family=="Debian"
    - name: server start apache2
@@ -15,7 +15,7 @@
      when: ansible_os_family=="Debian" 
    - name: install on Redhat8
      yum:
-      name: httpd
+      name: "{{redhat}}"
       state: present
      when: ansible_os_family=="RedHat" 
    - name: server start httpd
