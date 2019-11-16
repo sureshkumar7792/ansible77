@@ -9,6 +9,6 @@
      when: ansible_os_family=="Debian" 
    - name: install webservers on redhat
      yum:
-      name: "{{RedHat}}"
+      name: "{{redhat}}"
       state: present
      when: ansible_os_family=="RedHat"  
