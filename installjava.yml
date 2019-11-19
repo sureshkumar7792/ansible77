@@ -4,12 +4,12 @@
     tasks:
     - name: install java on ubuntu
       apt:
-       name: "{java on ubuntu}"
+       name: "{javaonubuntu}"
        state: present
       when: ansible_os_family =="Debian" 
     - name: install java on redhat
       apt:
-       name: "{java on redhat}"
+       name: "{javaonredhat}"
        state: present
       when: ansible_os_family =="RedHat"
 
