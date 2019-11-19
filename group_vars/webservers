@@ -1,6 +1,6 @@
 --- 
-   webserversonubuntu:apache2
-   webserversonredhat:httpd
+   webserversonubuntu: apache2
+   webserversonredhat: httpd
    javaonubuntu: openjdk-8-jre
    javaonredhat: java-1.8.0-openjdk
-   installjava:present
+   installjava: present
