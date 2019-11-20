@@ -5,12 +5,12 @@
    - include_tasks: myfile.yml
    - name: install apache2 on ubuntu
      apt:
-      name: "{{webserverson ubuntu}}"
+      name: "{{webserversonubuntu}}"
       state: "{{pr}}"
      when: ansible_os_family =="Debian"
    - name: start server
      service: 
-      name: "{{ webserverson ubuntu}}"
+      name: "{{webserversonubuntu}}"
       state: started
      when: ansible_os_family =="Debian"   
    - name: copy index.j2 file into anisble node side 
