@@ -7,12 +7,12 @@
      apt:
       name: "{{iub}}"
       state: "{{pr}}"
-     when: a_os_family =="Debian"
+     when: ansible_os_family =="Debian"
    - name: start  server
      servie: 
       name: "{{iub}}"
       state: started
-     when: a_os_family =="Debian"   
+     when: ansible_os_family =="Debian"   
    - name: copy index.j2 file into anisble node side 
      template:
       src: index.j2
