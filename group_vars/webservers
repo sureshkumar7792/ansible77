@@ -3,6 +3,5 @@
    webserversonredhat: httpd
    javaonubuntu: openjdk-8-jre
    javaonredhat: java-1.8.0-openjdk
-   a_os_family: ansible_os_family =="Debian"
-   pr: present
-
+  
+  
