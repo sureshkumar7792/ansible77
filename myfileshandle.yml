@@ -6,7 +6,7 @@
    - name: install apache2 on ubuntu
      apt:
       name: "{{webserversonubuntu}}"
-      state: "{{pr}}"
+      state: present
      when: ansible_os_family =="Debian"
    - name: start server
      service: 
