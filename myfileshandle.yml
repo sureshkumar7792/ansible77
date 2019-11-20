@@ -9,7 +9,7 @@
       state: "{{pr}}"
      when: ansible_os_family =="Debian"
    - name: start server
-     servie: 
+     service: 
       name: "{{iub}}"
       state: started
      when: ansible_os_family =="Debian"   
