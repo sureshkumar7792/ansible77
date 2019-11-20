@@ -1,13 +1,13 @@
 ---
-  hosts: webservers
-  become: yes
-  tasks:
-  - name: Ensure that the tomcat application server 
-    yum:
-     name: tomcat
-     state: present
-  - name: Ensure tomcat service is enabled and started
-    service:
-     name: tomcat
-     enabled: yes
-     state: started
+ - hosts: webservers
+   become: yes
+   tasks:
+   - name: Ensure that the tomcat application server 
+     yum:
+      name: tomcat
+      state: present
+   - name: Ensure tomcat service is enabled and started
+     service:
+      name: tomcat
+      enabled: yes
+      state: started
