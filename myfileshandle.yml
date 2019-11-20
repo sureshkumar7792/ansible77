@@ -8,7 +8,7 @@
       name: "{{iub}}"
       state: "{{pr}}"
      when: a_os_family =="Debian"
-   - name: start apache2 server
+   - name: start  server
      servie: 
       name: "{{iub}}"
       state: started
