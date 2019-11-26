@@ -2,7 +2,8 @@
 172.31.30.129
 172.31.25.24
 
-
+[application server]
+172.31.23.76
 
 [webservers:vars]
 ubuntu=apache2
