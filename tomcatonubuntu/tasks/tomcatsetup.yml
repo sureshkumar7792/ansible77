@@ -1,6 +1,0 @@
----
-- name: install tomcat  
-  hosts: 172.31.23.76
-  become: yes
-  roles:
-  - {role: tomcatonubuntu}
