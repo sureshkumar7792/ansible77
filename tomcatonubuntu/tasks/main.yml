@@ -1,7 +1,7 @@
 ---
 # tasks file for tomcatonubuntu
 - include_tasks: installjava.yml
-- include_tasks: UserGroup.yml
+- include_tasks: Usergroup.yml
 - include_tasks: download.yml
 - include_tasks: extract.yml
 - include_tasks: Permission.yml
